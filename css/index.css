@@ -1,0 +1,55 @@
+*{
+    border:1px solid black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #af4c4c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;
+}
+H1 {
+    font-size: 50px;
+}
+#logo{
+    width: 10%;
+}
+article{
+    width: 30%;
+}
+article img {
+    width: 100%;
+}
+#seccionFotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contenedorImg{
+height: 290px;
+overflow: hidden;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 0px solid black;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
